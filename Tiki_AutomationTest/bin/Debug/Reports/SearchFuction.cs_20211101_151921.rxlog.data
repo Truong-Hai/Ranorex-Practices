@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="9.23s"
+		durationms="9228"
+		type="root"
+		rid="18ad193ff51df1a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="PC"
+		rxversion="10.1.2.0"
+		host="DESKTOP-VK50CN0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="11/1/2021 3:19:24 PM"
+		timestampiso="2021-11-01T08:19:24"
+		endtime="11/1/2021 3:19:33 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="SearchFuction">
+		<detail>
+			SearchFuction
+		</detail>
+		<varbindings>
+		</varbindings>
+	</activity>
+</report>

@@ -1,0 +1,211 @@
+﻿<repository
+id="be8232c8-59ac-4fe8-bd3e-c7639ccf4ccc"
+name="Tiki_AutomationTestRepository">
+	<codegen
+	classname="Tiki_AutomationTestRepository"
+	namespace="Tiki_AutomationTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="2f7139e6-f18b-440f-a925-5935a75279c2"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="ab50b38c-11a5-488e-9ccb-e804ebdb264a"
+		isrooted="True"
+		name="HomePage"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			capname="button"
+			id="59a4b0e4-5a21-4755-8f3d-8760ad66b1e5"
+			name="btnSearch"
+			robustPath="/dom[@domain='tiki.vn']//div[#'__next']//button[@innertext='Tìm Kiếm']"
+			searchtimeout="30000ms">
+				/dom[@domain='tiki.vn']//button[@innertext='Tìm Kiếm']
+			</item>
+			<item
+			capname="inputtag"
+			id="95c89f98-d9b9-4e92-91cb-ef65c785d769"
+			name="txtSearch"
+			robustPath="/dom[@domain='tiki.vn']//div[#'__next']//input[@type='text']"
+			searchtimeout="30000ms">
+				/dom[@domain='tiki.vn']//input[@type='text']
+			</item>
+			<item
+			capname="spantag"
+			id="70d0ffb2-2d93-4905-97c0-d2e72b52767a"
+			name="btnRegiter"
+			robustPath="/dom[@domain='tiki.vn']//div[#'__next']//span[@innertext='Đăng Nhập / Đăng Ký']"
+			searchtimeout="30000ms">
+				/dom[@domain='tiki.vn']//span[@innertext='Đăng Nhập / Đăng Ký']
+			</item>
+			<basepath>
+				/dom[@domain='tiki.vn']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="webdocument"
+		id="95ee8582-bc1d-48d6-8338-08797f840d80"
+		isrooted="True"
+		name="Loginpopup"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			capname="inputtag"
+			id="354ab2cb-7350-47fd-9ecd-c55f129e9801"
+			name="txtPhone"
+			robustPath="/form[@title='input']/element"
+			searchtimeout="30000ms">
+				/dom[@domain='tiki.vn']//input[@name='tel']
+			</item>
+			<item
+			capname="button"
+			id="09c3a1fc-0f9d-4a62-a936-6120b779c434"
+			name="btnContinue"
+			robustPath="/form[@title='input']/element"
+			searchtimeout="30000ms">
+				/dom[@domain='tiki.vn']//button[@innertext='Tiếp Tục']
+			</item>
+			<item
+			capname="ptag"
+			id="1b45f5dd-a424-415e-893e-b99182dababa"
+			name="EmailRegist"
+			robustPath="/dom[@domain='tiki.vn']//p[@innertext='Đăng nhập bằng email']"
+			searchtimeout="30000ms">
+				/dom[@domain='tiki.vn']//p[@innertext='Đăng nhập bằng email']
+			</item>
+			<item
+			capname="inputtag"
+			id="a6503f99-27c4-49cb-b904-b4ed4f76b385"
+			name="txtPassWord"
+			robustPath="/dom[@domain='tiki.vn']//input[@type='password']"
+			searchtimeout="30000ms">
+				/dom[@domain='tiki.vn']//input[@type='password']
+			</item>
+			<item
+			capname="button"
+			id="cbfc013e-e95f-4743-b0fb-ec573689280a"
+			name="btnLogin"
+			robustPath="/dom[@domain='tiki.vn']//button[@innertext='Đăng Nhập']"
+			searchtimeout="30000ms">
+				/dom[@domain='tiki.vn']//button[@innertext='Đăng Nhập']
+			</item>
+			<basepath>
+				/dom[@domain='tiki.vn']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="webdocument"
+		id="86a4c5a9-729a-4a9b-b63f-125b144a8e80"
+		isrooted="True"
+		name="RegisterByEmail"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			capname="inputtag"
+			id="6f6fd175-a995-4eda-87da-7e747cdf5fdb"
+			name="txtEmail"
+			robustPath="/dom[@domain='tiki.vn']//input[@name='email']"
+			searchtimeout="30000ms">
+				/dom[@domain='tiki.vn']//input[@name='email']
+			</item>
+			<item
+			capname="inputtag"
+			id="0f8fbd35-338f-4e9d-a76a-3f7f8f48e5eb"
+			name="txtpassword"
+			robustPath="/dom[@domain='tiki.vn']//input[@type='password']"
+			searchtimeout="30000ms">
+				/dom[@domain='tiki.vn']//input[@type='password']
+			</item>
+			<item
+			capname="button"
+			id="f09fa888-e3e1-4fb2-ba5f-d7d70144ab09"
+			name="btnLogin"
+			robustPath="/dom[@domain='tiki.vn']//button[@innertext='Đăng nhập']"
+			searchtimeout="30000ms">
+				/dom[@domain='tiki.vn']//button[@innertext='Đăng nhập']
+			</item>
+			<basepath>
+				/dom[@domain='tiki.vn']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="webdocument"
+		id="be887eff-1fe8-459a-8155-1b7d41c8a36c"
+		isrooted="True"
+		name="CreateNewAccount"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			capname="spantag"
+			id="78d6d39b-ffd6-43c0-a3fd-2f45c2c67cc2"
+			name="spanCreate"
+			robustPath="/dom[@domain='tiki.vn']//span[@innertext='Tạo tài khoản']"
+			searchtimeout="30000ms">
+				/dom[@domain='tiki.vn']//span[@innertext='Tạo tài khoản']
+			</item>
+			<basepath>
+				/dom[@domain='tiki.vn']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="webdocument"
+		id="4d682aab-9367-4053-92e7-32f4a3c5a0f1"
+		isrooted="True"
+		name="AddToCart"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			capname="divtag"
+			id="76d04655-b9b4-4b2b-b47d-cd586e14424f"
+			name="ProductMenu"
+			robustPath="/dom[@domain='tiki.vn']//div[#'__next']//div[@innertext='Bách Hóa']"
+			searchtimeout="30000ms">
+				/dom[@domain='tiki.vn']//div[@innertext='Bách Hóa']
+			</item>
+			<item
+			capname="spantag"
+			id="e3863d8e-ddec-4625-9b11-ad6f1441e53a"
+			name="ProductItem"
+			robustPath="/dom[@domain='tiki.vn']//div[#'__next']//span[@innertext>'Thùng 24 Cà phê lon Cà Phê']"
+			searchtimeout="30000ms">
+				/dom[@domain='tiki.vn']//span[@innertext&gt;'Th&#249;ng 24 C&#224; ph&#234; lon C&#224; Ph&#234;']
+			</item>
+			<item
+			capname="button"
+			id="c8d0d5ea-5d43-498d-be86-0df48e31d2af"
+			name="btnAddToCart"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='tiki.vn']//button[@innertext='Chọn mua']
+			</item>
+			<basepath>
+				/dom[@domain='tiki.vn']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

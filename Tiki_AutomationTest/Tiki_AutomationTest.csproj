@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{0B1434CC-E145-4A83-9960-674A6F771E12}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Tiki_AutomationTest</RootNamespace>
+    <AssemblyName>Tiki_AutomationTest</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>fcc6b46f-7fcf-4ee7-bd11-9fc08d7048c2</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddToCart.cs">
+      <id>52463652-f179-4433-9e16-ceff5becd02d</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>d3185d7b-8ef5-41b7-addd-07ac3db5eb29</id>
+    </Compile>
+    <Compile Include="Close.cs">
+      <id>a99ced92-6bad-4ae1-827c-cb95add6f0d4</id>
+    </Compile>
+    <Compile Include="CreateAccount.cs">
+      <id>fc020782-4037-4ba3-8bef-22cf7d4a8a64</id>
+    </Compile>
+    <Compile Include="Login.cs">
+      <id>f1501dcc-019b-4114-b25e-82b89e6b65b5</id>
+    </Compile>
+    <Compile Include="LoginByPhone.cs">
+      <id>217c7915-8630-4aec-aefb-35e90fff0def</id>
+    </Compile>
+    <Compile Include="Open.cs">
+      <id>ffc8e41f-3087-4064-aea6-13cdbfdd2524</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>52dc07c5-5f89-4e56-8728-dc77b042f42b</id>
+    </Compile>
+    <Compile Include="RegisterByPhone.cs">
+      <id>b3550202-6acc-4c1a-a052-0763d761020f</id>
+    </Compile>
+    <Compile Include="RegisterbyEmail.cs">
+      <id>06851baa-03ea-4dff-b42e-804067b8114d</id>
+    </Compile>
+    <Compile Include="SearchFuction.cs">
+      <id>130f0adc-f987-4655-83b1-765c0930b4b4</id>
+    </Compile>
+    <Compile Include="Tiki_AutomationTestRepository.cs">
+      <BoundTo>fcc6b46f-7fcf-4ee7-bd11-9fc08d7048c2</BoundTo>
+      <DependentUpon>Tiki_AutomationTestRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>ac1349b5-c0c1-45b5-b3d8-e57d757b11a2</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>c1c80c48-4714-4018-89da-3d61a722bd69</id>
+    </None>
+    <None Include="Tiki_AutomationTestRepository.rximg">
+      <BoundTo>fcc6b46f-7fcf-4ee7-bd11-9fc08d7048c2</BoundTo>
+      <DependentUpon>Tiki_AutomationTestRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>846e6f4f-6df1-4fb1-955b-ed0b501f2907</id>
+    </None>
+    <None Include="Tiki_AutomationTestRepository.rxrep">
+      <id>fcc6b46f-7fcf-4ee7-bd11-9fc08d7048c2</id>
+      <repoid>be8232c8-59ac-4fe8-bd3e-c7639ccf4ccc</repoid>
+      <reporootid>2f7139e6-f18b-440f-a925-5935a75279c2</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Tiki_AutomationTest.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>a63b84ab-9594-4dad-bc26-a345f2cbfd73</id>
+    </Content>
+    <Content Include="Tiki_AutomationTest.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>a5a84280-6091-4df4-9749-fc9ad33c55e1</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

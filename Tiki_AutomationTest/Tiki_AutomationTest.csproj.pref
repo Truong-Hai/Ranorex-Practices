@@ -1,0 +1,19 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Tiki_AutomationTest.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="AddToCart.cs" />
+    <Element value="RegisterByPhone.cs" />
+    <Element value="SearchFuction.cs" />
+    <Element value="Tiki_AutomationTest.rxtst" />
+    <Element value="Tiki_AutomationTestRepository.rxrep" />
+    <Element value="CreateAccount.cs" />
+    <Element value="RegisterbyEmail.cs" />
+    <Element value="Open.cs" />
+    <Element value="Close.cs" />
+    <Element value="LoginByPhone.cs" />
+  </Array>
+  <Properties name="projectSavedData" />
+</Properties>

@@ -1,0 +1,15 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{0B1434CC-E145-4A83-9960-674A6F771E12}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution Tiki_AutomationTest[Tiki_AutomationTest[]]]&#xD;&#xA;Solution Tiki_AutomationTest\Tiki_AutomationTest\Tiki_AutomationTest&#xD;&#xA;Solution Tiki_AutomationTest\Tiki_AutomationTest\Open.cs" />
+  <StartupProject value="{0B1434CC-E145-4A83-9960-674A6F771E12}" />
+</Properties>

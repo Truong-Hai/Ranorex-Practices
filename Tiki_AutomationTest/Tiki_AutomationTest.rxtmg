@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Tiki_AutomationTest"
+      id="575b0483-31cb-4164-bcff-a5838f16edfa"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Tiki_AutomationTest"
+      id="575b0483-31cb-4164-bcff-a5838f16edfa"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

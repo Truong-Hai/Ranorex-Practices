@@ -1,0 +1,10 @@
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\Tiki_AutomationTest\Tiki_AutomationTest\obj\x86\Debug\Tiki_AutomationTest.csprojResolveAssemblyReference.cache
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\Tiki_AutomationTest\Tiki_AutomationTest\bin\Debug\Tiki_AutomationTest.rxtmg
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\Tiki_AutomationTest\Tiki_AutomationTest\bin\Debug\Tiki_AutomationTest.rxtst
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\Tiki_AutomationTest\Tiki_AutomationTest\bin\Debug\Tiki_AutomationTest.exe.config
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\Tiki_AutomationTest\Tiki_AutomationTest\bin\Debug\Tiki_AutomationTest.xml
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\Tiki_AutomationTest\Tiki_AutomationTest\bin\Debug\Tiki_AutomationTest.exe
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\Tiki_AutomationTest\Tiki_AutomationTest\bin\Debug\Tiki_AutomationTest.pdb
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\Tiki_AutomationTest\Tiki_AutomationTest\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\Tiki_AutomationTest\Tiki_AutomationTest\obj\x86\Debug\Tiki_AutomationTest.exe
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\Tiki_AutomationTest\Tiki_AutomationTest\obj\x86\Debug\Tiki_AutomationTest.pdb

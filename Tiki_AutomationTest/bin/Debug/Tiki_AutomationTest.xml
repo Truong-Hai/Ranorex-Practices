@@ -1,0 +1,484 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tiki_AutomationTest</name>
+    </assembly>
+    <members>
+        <member name="T:Tiki_AutomationTest.AddToCart">
+            <summary>
+            Description of AddToCart.
+            </summary>
+        </member>
+        <member name="M:Tiki_AutomationTest.AddToCart.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Tiki_AutomationTest.AddToCart.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Tiki_AutomationTest.Close">
+            <summary>
+            Description of Close.
+            </summary>
+        </member>
+        <member name="M:Tiki_AutomationTest.Close.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Tiki_AutomationTest.Close.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Tiki_AutomationTest.CreateAccount">
+            <summary>
+            Description of CreateAccount.
+            </summary>
+        </member>
+        <member name="M:Tiki_AutomationTest.CreateAccount.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Tiki_AutomationTest.CreateAccount.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Tiki_AutomationTest.Login">
+            <summary>
+            Description of Login.
+            </summary>
+        </member>
+        <member name="M:Tiki_AutomationTest.Login.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Tiki_AutomationTest.Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Tiki_AutomationTest.LoginByPhone">
+            <summary>
+            Description of LoginByPhone.
+            </summary>
+        </member>
+        <member name="M:Tiki_AutomationTest.LoginByPhone.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Tiki_AutomationTest.LoginByPhone.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Tiki_AutomationTest.Open">
+            <summary>
+            Description of Open.
+            </summary>
+        </member>
+        <member name="M:Tiki_AutomationTest.Open.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Tiki_AutomationTest.Open.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Tiki_AutomationTest.RegisterByPhone">
+            <summary>
+            Description of Register.
+            </summary>
+        </member>
+        <member name="M:Tiki_AutomationTest.RegisterByPhone.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Tiki_AutomationTest.RegisterByPhone.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Tiki_AutomationTest.RegisterbyEmail">
+            <summary>
+            Description of RegisterbyEmail.
+            </summary>
+        </member>
+        <member name="M:Tiki_AutomationTest.RegisterbyEmail.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Tiki_AutomationTest.RegisterbyEmail.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Tiki_AutomationTest.SearchFuction">
+            <summary>
+            Description of SearchFuction.
+            </summary>
+        </member>
+        <member name="M:Tiki_AutomationTest.SearchFuction.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Tiki_AutomationTest.SearchFuction.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Tiki_AutomationTest.Tiki_AutomationTestRepository">
+            <summary>
+            The class representing the Tiki_AutomationTestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:Tiki_AutomationTest.Tiki_AutomationTestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the Tiki_AutomationTestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepository.HomePage">
+            <summary>
+            The HomePage folder.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepository.Loginpopup">
+            <summary>
+            The Loginpopup folder.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepository.RegisterByEmail">
+            <summary>
+            The RegisterByEmail folder.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepository.CreateNewAccount">
+            <summary>
+            The CreateNewAccount folder.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepository.AddToCart">
+            <summary>
+            The AddToCart folder.
+            </summary>
+        </member>
+        <member name="T:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.HomePageAppFolder">
+            <summary>
+            The HomePageAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.HomePageAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HomePage  folder.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.HomePageAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.HomePageAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.HomePageAppFolder.btnSearch">
+            <summary>
+            The btnSearch item.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.HomePageAppFolder.btnSearchInfo">
+            <summary>
+            The btnSearch item info.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.HomePageAppFolder.txtSearch">
+            <summary>
+            The txtSearch item.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.HomePageAppFolder.txtSearchInfo">
+            <summary>
+            The txtSearch item info.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.HomePageAppFolder.btnRegiter">
+            <summary>
+            The btnRegiter item.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.HomePageAppFolder.btnRegiterInfo">
+            <summary>
+            The btnRegiter item info.
+            </summary>
+        </member>
+        <member name="T:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.LoginpopupAppFolder">
+            <summary>
+            The LoginpopupAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.LoginpopupAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Loginpopup  folder.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.LoginpopupAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.LoginpopupAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.LoginpopupAppFolder.txtPhone">
+            <summary>
+            The txtPhone item.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.LoginpopupAppFolder.txtPhoneInfo">
+            <summary>
+            The txtPhone item info.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.LoginpopupAppFolder.btnContinue">
+            <summary>
+            The btnContinue item.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.LoginpopupAppFolder.btnContinueInfo">
+            <summary>
+            The btnContinue item info.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.LoginpopupAppFolder.EmailRegist">
+            <summary>
+            The EmailRegist item.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.LoginpopupAppFolder.EmailRegistInfo">
+            <summary>
+            The EmailRegist item info.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.LoginpopupAppFolder.txtPassWord">
+            <summary>
+            The txtPassWord item.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.LoginpopupAppFolder.txtPassWordInfo">
+            <summary>
+            The txtPassWord item info.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.LoginpopupAppFolder.btnLogin">
+            <summary>
+            The btnLogin item.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.LoginpopupAppFolder.btnLoginInfo">
+            <summary>
+            The btnLogin item info.
+            </summary>
+        </member>
+        <member name="T:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.RegisterByEmailAppFolder">
+            <summary>
+            The RegisterByEmailAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.RegisterByEmailAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RegisterByEmail  folder.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.RegisterByEmailAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.RegisterByEmailAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.RegisterByEmailAppFolder.txtEmail">
+            <summary>
+            The txtEmail item.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.RegisterByEmailAppFolder.txtEmailInfo">
+            <summary>
+            The txtEmail item info.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.RegisterByEmailAppFolder.txtpassword">
+            <summary>
+            The txtpassword item.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.RegisterByEmailAppFolder.txtpasswordInfo">
+            <summary>
+            The txtpassword item info.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.RegisterByEmailAppFolder.btnLogin">
+            <summary>
+            The btnLogin item.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.RegisterByEmailAppFolder.btnLoginInfo">
+            <summary>
+            The btnLogin item info.
+            </summary>
+        </member>
+        <member name="T:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.CreateNewAccountAppFolder">
+            <summary>
+            The CreateNewAccountAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.CreateNewAccountAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CreateNewAccount  folder.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.CreateNewAccountAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.CreateNewAccountAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.CreateNewAccountAppFolder.spanCreate">
+            <summary>
+            The spanCreate item.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.CreateNewAccountAppFolder.spanCreateInfo">
+            <summary>
+            The spanCreate item info.
+            </summary>
+        </member>
+        <member name="T:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.AddToCartAppFolder">
+            <summary>
+            The AddToCartAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.AddToCartAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AddToCart  folder.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.AddToCartAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.AddToCartAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.AddToCartAppFolder.ProductMenu">
+            <summary>
+            The ProductMenu item.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.AddToCartAppFolder.ProductMenuInfo">
+            <summary>
+            The ProductMenu item info.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.AddToCartAppFolder.ProductItem">
+            <summary>
+            The ProductItem item.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.AddToCartAppFolder.ProductItemInfo">
+            <summary>
+            The ProductItem item info.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.AddToCartAppFolder.btnAddToCart">
+            <summary>
+            The btnAddToCart item.
+            </summary>
+        </member>
+        <member name="P:Tiki_AutomationTest.Tiki_AutomationTestRepositoryFolders.AddToCartAppFolder.btnAddToCartInfo">
+            <summary>
+            The btnAddToCart item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
